@@ -10,6 +10,12 @@
     line-height: 22px;
 }
 
+img {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+}
+
 .lora-regular {
   font-family: "Lora", serif;
   font-optical-sizing: auto;
@@ -77,10 +83,32 @@
     border-radius: 24px;
 }
 
-.grid-item--content {
+.grid-item {
     color: #333;
     border-radius: 24px;
     background-color: #f4f0ea;
+    display: flex;
+    flex-direction: column;
+}
+
+.grid-item--content {
+    margin-top: auto;
+    padding: 24px;
+}
+
+.grid-item--content__title {
+    font-size: 64px;
+    line-height: 74px;
+    margin-bottom: 40px;
+}
+
+.grid-item--content__subtitle {
+    font-size: 20px;
+    line-height: 30px;
+}
+
+.grid-item--content p {
+    margin-bottom: 16px;
 }
 
 /* Responsive Design */
