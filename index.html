@@ -1,16 +1,59 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Prototype Components</title>
-    <link rel="stylesheet" href="css/style.css">
-</head>
-<body>
-    <header></header>
-    <section></section>
-    <footer></footer>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Prototype Components</title>
+        <link rel="stylesheet" href="css/style.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Lora:ital@0;1&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Lora:ital@0;1&display=swap" rel="stylesheet">
+    </head>
+    <body>
+        <header></header>
+
+        <!-- Component 1 -->
+        <section class="box-content">
+            <h2 class="box-content__title">Lorem ullamco</h2>
+            <div class="image-group">
+                <img src="/assets/image1.png" alt="Image 1">
+                <img src="/assets/image2.png" alt="Image 2">
+            </div>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Excepteur eiusmod consectetur proident Lorem reprehenderit esse do anim velit in aliquip dolore ut officia. Consectetur reprehenderit proident do exercitation eu. Sunt fugiat pariatur elit est laboris quis. Esse mollit incididunt quis amet. Qui non irure incididunt laborum nisi cillum consequat aliquip aliquip cillum in. Ut excepteur labore voluptate tempor cupidatat dolor eiusmod do ipsum Lorem cupidatat do labore.</p>
+            <p>Proident dolore nisi eiusmod excepteur aliquip esse ut excepteur. Non excepteur sunt reprehenderit sit ex ullamco eiusmod Lorem incididunt nisi mollit nostrud. Irure velit enim elit minim commodo qui culpa cillum duis fugiat consequat pariatur.</p>
+        </section>
+        
+        <!-- Component 2 -->
+        <section class="grid-content">
+            <!-- Grid Item 1 -->
+            <div class="grid-item">
+                <img src="/assets/image3.jpg" alt="Image 1">
+            </div>
     
-    <script src="js/script.js"></script>
-</body>
+            <!-- Grid Item 2 -->
+            <div class="grid-item grid-item--content">
+                <h2 class="grid-item--content__title lora-regular">Lorem ipsum</h2>
+                <h3 class="grid-item--content__subtitle">Excepteur eiusmod consectetur</h3>
+                <p>Proident dolore nisi eiusmod excepteur aliquip esse ut excepteur. Non excepteur sunt reprehenderit sit ex ullamco eiusmod Lorem incididunt nisi mollit nostrud. Irure velit enim elit minim commodo qui culpa cillum duis fugiat consequat pariatur.</p>
+                <h3 class="grid-item--content__subtitle">Quis aliqua reprehenderit</h3>
+                <p>Proident dolore nisi eiusmod excepteur aliquip esse ut excepteur. Non excepteur sunt reprehenderit sit ex ullamco eiusmod Lorem incididunt nisi mollit nostrud. Irure velit enim elit minim commodo qui culpa cillum duis fugiat consequat pariatur.</p>
+            </div>
+    
+            <!-- Grid Item 3 -->
+            <div class="grid-item grid-item--content">
+                <h2 class="grid-item--content__title lora-regular">Mollit aliquip do ipsum consectetur</h2>
+                <p>En laborum ea qui consectetur mollit commodo eiusmod qui dolor cupidatat. Ullamco dolore irure ea sit et velit officia. Ad eu reprehenderit in et voluptate mollit. Reprehenderit incididunt magna consequat cillum incididunt do dolor laborum cupidatat.</p>
+            </div>
+    
+            <!-- Grid Item 4 -->
+            <div class="grid-item">
+                <img src="/assets/image4.jpg" alt="Image 2">
+            </div>
+        </section>
+
+        <footer></footer>
+
+        <script src="js/script.js"></script>
+    </body>
 </html>
